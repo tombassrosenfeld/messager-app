@@ -4,7 +4,7 @@ import axios from '../../data/axios'
 
 const Chats = () => {
     const dispatch = useDispatch();
-    const userID = useSelector((state) => state.userID);
+    const userID = useSelector((state) => state.user.id);
     useEffect(() => {
         axios.get(`users/${ userID }/chats`).then((data) => {
             const { chats, messages } = data.data;

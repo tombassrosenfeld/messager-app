@@ -1,6 +1,6 @@
 const initialState = {
-    userID: 1,
-    users: [],
+    user: {},
+    AllUsers: [],
     chats: [],
     messages: [],
     loading: false,
