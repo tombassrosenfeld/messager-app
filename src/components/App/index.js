@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import Chats from '../Chats'
-import ChooseUser from '../ChooseUser';
+import LoginPanel from '../LogInPanel';
 
 
 import './App.css';
@@ -15,7 +15,7 @@ function App() {
       </header>
       <main>
       {user.id === undefined ? 
-      <ChooseUser /> :
+      <LoginPanel /> :
       <Chats />}
 
       </main>

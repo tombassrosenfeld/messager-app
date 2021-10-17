@@ -1,0 +1,28 @@
+import React from 'react'
+import ChooseUser from '../ChooseUser'
+import LogIn from '../LogIn'
+import NewUserForm from '../NewUserForm'
+const LoginPanel = () => {
+
+
+    return (
+        <section className="login">
+            <h2>New here?</h2>
+
+            <p>Select a random pre-existing user to see how a populated chat dashboard looks.</p>
+            <ChooseUser />
+
+            <p>Or create a new user:</p>
+            <NewUserForm />
+
+            Not so new? Log in. 
+
+            <LogIn />
+           
+        </section>
+    )
+
+
+}
+
+export default LoginPanel;
