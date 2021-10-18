@@ -1,0 +1,30 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    width: calc( 100vw - 18rem);
+    overflow: scroll;
+    height: 100%;
+}
+
+.conversation__message-wrapper {
+    padding: 1rem;
+}
+
+.conversation__input {
+    width: 100%;
+    display: flex;
+}
+
+.conversation__submit {
+    width: 4rem;
+}
+
+.conversation__input-label {
+    position: absolute;
+    left: -99999px;
+}
+
+.conversation__text-area {
+    padding: 1rem;
+    width: calc(100% - 4rem);
+}
