@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# Team Messager app
+
+This project uses React. See the react [docs](#getting-started-with-create-react-app) below. 
+
+To use this app you will need to spin up the [team messager api](https://github.com/tombassrosenfeld/messager-api). 
+
+Clone this repo into your project directory and run npm install. 
+
+## This project
+
+My focus has mainly been utilising the api and the exchange of data with the back end. 
+
+I would like to spend a little more time on the styling of the app and tidying the user interface. 
+
+I'm hoping to continue developing this and to integrate push interraction with the API using Pusher for Laravel. I'd also like to expand the app to allow insertion of media into messages. 
+
+I'd planned to use the timestamps to produce alerts of unseen messages. 
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
