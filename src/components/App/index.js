@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import Chats from '../Chats'
+import Interface from '../Interface';
 import LoginPanel from '../LogInPanel';
 
 
@@ -9,18 +9,17 @@ function App() {
   const user = useSelector((state) => state.user);
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="app-header">
         <h1>Messager</h1>
       </header>
-      <main>
-      {user.id === undefined ? 
-      <LoginPanel /> :
-      <Chats />}
-
+      <main className="app__content">
+        {
+          user.id === undefined ? 
+          <LoginPanel /> :
+          <Interface />
+        }
       </main>
-
-
     </div>
   );
 }

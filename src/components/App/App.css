@@ -1,14 +1,14 @@
-.App {
+.app {
   text-align: center;
-  max-height: 100vh;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__content {
+  height: 100%;
+  display: flex;
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -18,15 +18,6 @@
   color: white;
 }
 
-.App-link {
+.app-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
