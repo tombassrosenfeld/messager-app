@@ -15,7 +15,7 @@ const LoginPanel = () => {
             <p>Or create a new user:</p>
             <NewUserForm />
 
-            Not so new? Log in. 
+            <p>Not so new? Log in.</p>
 
             <LogIn />
            

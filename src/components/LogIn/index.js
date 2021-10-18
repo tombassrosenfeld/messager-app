@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useDispatch } from 'react-redux';
 import axios from "../../data/axios";
 
+import './Login.css';
+
 const LogIn = () => {
 
     const dispatch = useDispatch();
