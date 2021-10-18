@@ -1,5 +1,6 @@
 const initialState = {
     user: {},
+    currentChat: null,
     AllUsers: [],
     chats: [],
     messages: [],
